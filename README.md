@@ -1,5 +1,10 @@
-# PicoQuant Time Tagged File Format (ptu, phu)
+Fork of PicoQuant/PicoQuant-Time-Tagged-File-Format-Demos repo.  Lower part of readme is their original readme.
 
+This fork serves as a starting point for adapting their initial T2 and T3 files to text output (very inefficient for most cases; great to visualize and learn about on smaller files).  The end goal is to efficiently split (scanned FCS data), filter (using photon filters like LFCS), correlate (auto correlation function (ACF), spatio-temporal autocorrelation, both with semi-log multi-tau temporal binning).  See https://www.cell.com/biophysj/fulltext/S0006-3495(14)04751-1 for a detailed application of these techniques.
+
+
+
+# PicoQuant Time Tagged File Format (ptu, phu)
 
 Demo Code for PicoQuants Time Tagged File Formats
 

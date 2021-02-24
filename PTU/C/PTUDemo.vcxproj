@@ -76,7 +76,12 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="photon_linked_list.c" />
     <ClCompile Include="ptudemo.cc" />
+    <ClCompile Include="tttr_funcs.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="tttr_funcs.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

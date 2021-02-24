@@ -5,6 +5,7 @@
 #include <string.h>
 #include <stdint.h>
 #include <wchar.h>
+#include <stdbool.h>
 
 
 // definitions copied from PQ PTUDemo files

@@ -4,7 +4,7 @@
 
 ## Installation
 
-Add MatLab folder to path.
+Add MatLab folder to path if cloning, or copy `ptu_data.mexw64` to a matlab path location if not.  Only `ptu_data.mexw64` is needed.
 
 ## Usage
 

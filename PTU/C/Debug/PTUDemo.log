@@ -1,0 +1,28 @@
+﻿  photon_linked_list.c
+  ptudemo.cc
+C:\repo\TTTR\PTU\C\ptudemo.cc(434,24): warning C4477: 'fprintf' : format string '%16.16X' requires an argument of type 'unsigned int', but variadic argument 1 has type '__int64'
+C:\repo\TTTR\PTU\C\ptudemo.cc(434,24): message : consider using '%llX' in the format string
+C:\repo\TTTR\PTU\C\ptudemo.cc(434,24): message : consider using '%I64X' in the format string
+C:\repo\TTTR\PTU\C\ptudemo.cc(437,24): warning C4477: 'fprintf' : format string '%16.16X' requires an argument of type 'unsigned int', but variadic argument 1 has type '__int64'
+C:\repo\TTTR\PTU\C\ptudemo.cc(437,24): message : consider using '%llX' in the format string
+C:\repo\TTTR\PTU\C\ptudemo.cc(437,24): message : consider using '%I64X' in the format string
+C:\repo\TTTR\PTU\C\ptudemo.cc(447,24): warning C4477: 'fprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type '__int64'
+C:\repo\TTTR\PTU\C\ptudemo.cc(447,24): message : consider using '%lld' in the format string
+C:\repo\TTTR\PTU\C\ptudemo.cc(447,24): message : consider using '%I64d' in the format string
+C:\repo\TTTR\PTU\C\ptudemo.cc(454,60): warning C4474: 'fprintf' : too many arguments passed for format string
+C:\repo\TTTR\PTU\C\ptudemo.cc(454,60): message : placeholders and their parameters expect 1 variadic arguments, but 2 were provided
+C:\repo\TTTR\PTU\C\ptudemo.cc(481,24): warning C4477: 'fprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type '__int64'
+C:\repo\TTTR\PTU\C\ptudemo.cc(481,24): message : consider using '%lld' in the format string
+C:\repo\TTTR\PTU\C\ptudemo.cc(481,24): message : consider using '%I64d' in the format string
+C:\repo\TTTR\PTU\C\ptudemo.cc(546,20): warning C4477: 'fprintf' : format string '%X' requires an argument of type 'unsigned int', but variadic argument 1 has type '__int64'
+C:\repo\TTTR\PTU\C\ptudemo.cc(546,20): message : consider using '%llX' in the format string
+C:\repo\TTTR\PTU\C\ptudemo.cc(546,20): message : consider using '%I64X' in the format string
+C:\repo\TTTR\PTU\C\ptudemo.cc(546,20): warning C4473: 'fprintf' : not enough arguments passed for format string
+C:\repo\TTTR\PTU\C\ptudemo.cc(546,20): message : placeholders and their parameters expect 2 variadic arguments, but 1 were provided
+C:\repo\TTTR\PTU\C\ptudemo.cc(546,20): message : the missing variadic argument 2 is required by format string '%X'
+C:\repo\TTTR\PTU\C\ptudemo.cc(367,12): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repo\TTTR\PTU\C\ptudemo.cc(371,13): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repo\TTTR\PTU\C\ptudemo.cc(411,5): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repo\TTTR\PTU\C\ptudemo.cc(414,7): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\repo\TTTR\PTU\C\ptudemo.cc(454,30): warning C4996: 'asctime': This function or variable may be unsafe. Consider using asctime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  PTUDemo.vcxproj -> C:\repo\TTTR\PTU\C\Debug\PTUDemo.exe

@@ -8,7 +8,7 @@ struct Node {
 
 // Program to create a simple linked 
 // list with 3 nodes 
-int main()
+int photon_lnkd_lst()
 {
     struct Node* head = NULL;
     struct Node* second = NULL;

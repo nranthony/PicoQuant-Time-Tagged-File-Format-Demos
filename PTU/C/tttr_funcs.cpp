@@ -63,11 +63,19 @@ struct TgHd {
 
 struct sTTTR
 {
+    /*
     unsigned abs_time_pulse : 36;
     unsigned line_number : 8;
     unsigned dtime : 10;
     unsigned cycle_number : 24;
     unsigned pulse_in_cycle : 20;
+    */
+    unsigned long long abs_time_pulse;
+    unsigned char line_number : 8;
+    unsigned short dtime : 10;
+    unsigned long cycle_number : 24;
+    unsigned long pulse_in_cycle : 20;
+
 };
 
 class ptu_line
@@ -144,7 +152,7 @@ void ProcessTH260v2(unsigned int TTTRRecord)
     }
 }
 
-void ProcessHeader()
+//void ProcessHeader()
 
 int main(int argc, char* argv[])
 {
@@ -378,41 +386,9 @@ int main(int argc, char* argv[])
                 break;
             }
         }
-        switch (RecordType)
-        {
-        case rtPicoHarpT2:
-            IsT2 = true;
-            ProcessPHT2(TTTRRecord);
-            break;
-        case rtPicoHarpT3:
-            IsT2 = false;
-            ProcessPHT3(TTTRRecord);
-            break;
-        case rtHydraHarpT2:
-            IsT2 = true;
-            ProcessHHT2(TTTRRecord, 1);
-            break;
-        case rtHydraHarpT3:
-            IsT2 = false;
-            ProcessHHT3(TTTRRecord, 1);
-            break;
-        case rtMultiHarpNT2:
-        case rtHydraHarp2T2:
-        case rtTimeHarp260NT2:
-        case rtTimeHarp260PT2:
-            IsT2 = true;
-            ProcessHHT2(TTTRRecord, 2);
-            break;
-        case rtMultiHarpNT3:
-        case rtHydraHarp2T3:
-        case rtTimeHarp260NT3:
-        case rtTimeHarp260PT3:
-            IsT2 = false;
-            ProcessHHT3(TTTRRecord, 2);
-            break;
-        default:
-            goto close;
-        }
+
+        IsT2 = false;
+        ProcessTH260v2(TTTRRecord);
     }
 
 close:

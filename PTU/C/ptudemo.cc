@@ -297,7 +297,7 @@ void ProcessHHT3(unsigned int TTTRRecord, int HHVersion)
   union {
     unsigned int allbits;
     struct  {
-      unsigned nsync    :10;  // numer of sync period
+      unsigned nsync    :10;    // numer of sync period
       unsigned dtime    :15;    // delay from last sync in units of chosen resolution
       unsigned channel  :6;
       unsigned special  :1;
